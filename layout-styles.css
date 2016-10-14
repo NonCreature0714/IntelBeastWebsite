@@ -1,19 +1,55 @@
 body {
   font-family: Arial, Verdana, sans-serif;
+  background: white;
+  padding: 0;
+  margin: auto;
+  width: 73%;
+  position: relative;
 }
 
-.homebar {
-  image-orientation: left;
-  background-color: violet;
+nav {
   padding: 5px;
 }
 
-.cell {
-  background-color: lightgrey;
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+a:hover {
+  color: white;
+}
+
+.homebar {
+  image-orientation: center;
+  width: 100%;
+  background-color: violet;
+  padding: 5px;
+  text-align: left;
+}
+
+.main {
+  padding-bottom: 180px;
+  text-align: center;
+  align-items: center;
 }
 
 .container {
-  background-color: lavender;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  background-color: white;
+  padding: 5px;
+  text-align: left;
+  margin: auto;
+
+}
+
+.about {
+  text-align: left;
+  width: 400px;
 }
 
 .projects {
@@ -23,14 +59,26 @@ body {
 .info {
   width: 200px;
   font-size: .9em;
+  float: left;
+  margin: 20px;
+  padding: 5px;
+  height: 150px;
 }
 
-dt {
-  font-size: 1.2em;
+.info:hover {
+  background-color: #00bddf;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  padding-top: -180px;
+  height: 180px;
+  position: relative;
+  clear: both;
+}
+
+.projecttitle {
+  font-size: 1.1em;
   font-weight: bold;
-  padding: 3px;
-}
-
-dl {
-
 }

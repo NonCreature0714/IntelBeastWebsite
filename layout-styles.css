@@ -44,12 +44,24 @@ a:hover {
   padding: 5px;
   text-align: left;
   margin: auto;
-
 }
 
-.about {
+.window {
   text-align: left;
-  width: 400px;
+  font-size: 1.2em;
+  color: black;
+  text-shadow: 2px 2px white;
+  font-weight: bolder;
+  padding: auto;
+  width: auto;
+  height: 200px;
+  background-image: url("images/tiger.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .projects {

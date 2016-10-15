@@ -1,0 +1,56 @@
+.connections{
+  display: table;
+  padding: 0;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.linkstomedia{
+  display:table-row;
+  width: auto;
+}
+
+.connection{
+  display: table-column;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  opacity: 0.5;
+}
+
+.connection:hover{
+  opacity: 1;
+}
+
+.twitterdiv{
+  background-color: white;
+  color: #00a3ec;
+}
+
+.twitchdiv{
+  background-color: #68429e;
+  color: white;
+}
+
+.stackoverflowdiv{
+  background-color: grey;
+  color: orange;
+}
+
+.githubdiv{
+  background-color: black;
+  color: white;
+}
+
+.linkedindiv{
+  background-color: #0084b7;
+  color: white;
+}
+
+.emaildiv{
+  background-color: white;
+}

@@ -1,9 +1,10 @@
 .connections{
   display: table;
   padding: 0;
-  width: auto;
+  width: 73%;
   height: auto;
-  margin: 0;
+  margin: auto;
+  margin-top: auto;
 }
 
 .linkstomedia{

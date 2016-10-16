@@ -3,7 +3,7 @@ body {
   background: white;
   padding: 0;
   margin: auto;
-  width: 73%;
+  width: 100%;
   position: relative;
 }
 
@@ -20,9 +20,21 @@ a:hover {
   color: white;
 }
 
+dt {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+dd {
+  height: auto;
+  padding: 5px;
+}
+
 .homebar {
   image-orientation: center;
-  width: 100%;
+  width: 73%;
+  margin: auto;
   background-color: violet;
   padding: 5px;
   text-align: left;
@@ -43,7 +55,10 @@ a:hover {
   background-color: white;
   padding: 5px;
   text-align: left;
+  width: 73%;
   margin: auto;
+  position: relative;
+  clear: both;
 }
 
 .window {
@@ -54,6 +69,7 @@ a:hover {
   font-weight: bolder;
   padding: auto;
   width: auto;
+  margin: auto;
   height: 200px;
   background-image: url("images/tiger.png");
   background-repeat: no-repeat;
@@ -66,6 +82,8 @@ a:hover {
 
 .projects {
   padding: 5px;
+  width: 73%;
+  margin: auto;
 }
 
 .info {
@@ -90,7 +108,13 @@ a:hover {
   clear: both;
 }
 
+.blurb{
+  text-align: left;
+  margin: auto;
+}
+
 .projecttitle {
   font-size: 1.1em;
   font-weight: bold;
+  margin: auto;
 }

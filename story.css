@@ -1,0 +1,32 @@
+.story{
+  width: 73%;
+  margin: auto;
+}
+
+.childhood{
+  background: rgba(0, 0, 128, 0.3);
+}
+
+.ucf{
+  background: rgba(255, 215, 0, 0.3);
+}
+
+.marines{
+  background: rgba(255, 0, 0, 0.3);
+}
+
+.marsoc{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.ticom{
+  background: rgba(165,42,42,0.3);
+}
+
+.acc{
+  background: rgba(128, 0, 128, 0.3);
+}
+
+.google{
+  background: rgba(0, 255, 0, 0.3);
+}

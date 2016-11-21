@@ -1,10 +1,21 @@
 /*TODO: desktop res*/
+/*NOTE: colors:
+    pink:
+    hoever-teal:
+    teal:
+    clicked-teal:
+    offwhite:
+    white:
+    font:
+*/
 body {
 
 }
 
 #wrapper {
-
+  /*TODO: max width*/
+  /*TODO: min width*/
+  /*TODO: width*/
 }
 
 header {
@@ -20,7 +31,7 @@ main {
 }
 
 footer {
-  
+
 }
 
 .collection {
